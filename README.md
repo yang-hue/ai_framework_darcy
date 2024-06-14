@@ -1,5 +1,10 @@
 # 二维定常达西问题
 
+## 文件说明
+
+darcy2D_train.ipynb用于训练模型，并保存模型参数到本地，模型参数文件为darcy2D.ckpt。
+darcy2D_test.ipynb用于测试模型，加载模型参数，并在测试数据上评估模型。
+
 ## 环境安装
 
 要求 **MindSpore >= 2.0.0** 版本以调用如下接口: *mindspore.jit, mindspore.jit_class, mindspore.data_sink*。具体请查看[MindSpore安装](https://www.mindspore.cn/install)。
